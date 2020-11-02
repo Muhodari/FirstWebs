@@ -1,0 +1,736 @@
+#image-navigation-bar{
+background-color:#043b22;
+height: 13em;
+margin: 0em 3em 1em 3em;
+background-attachment: fixed;
+
+}
+
+#image-navigation-bar img{
+height: 13em;
+width: 74em;
+
+}
+
+
+
+body{
+	
+}
+
+/*navigation bar design  */
+
+
+#navigation-bar{
+background-attachment: fixed;
+height: 7em;
+background-color: #c9e3af;
+margin:1em 3em;
+}
+#navigation-bar img{
+width: 8em;
+height: 7em;
+}
+
+
+#navigation-bar ul {
+  list-style-type: none;
+  margin:1em 3em;
+  padding: 0;
+  float: right;
+  overflow: hidden;
+  background-color: #c9e3af;
+
+}
+
+#navigation-bar li {
+  float:right;
+}
+
+#navigation-bar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navigation-bar li a:hover {
+  background-color:green;
+  font-size: 1.5em;
+  color: white;
+}
+
+
+/* slide bar  designing */
+
+/*#slide-bar-body{
+	background-color: green;
+}
+*/
+
+#slide-bar{
+background-color:#4d7d50;
+margin:0em 0em 1em 3em;
+height: 51.5em;
+width: 16em;
+float: left;
+
+}
+
+#slide-bar a{
+	background-color:#0b3b0d;
+	color: white;
+	text-decoration: none;
+	margin: 1em 0em 1em 0em;
+	display: block;
+	padding: 0em 2em 0em 2em;
+
+}
+
+
+
+
+
+
+/* designing  main body */
+
+
+#main-body{
+margin:0em 3em 1em 0em;
+
+height: 52em;
+width: 57em;
+float: right;
+} 
+
+#main-body img {
+	width:57em;
+	height:25em;
+}
+
+
+
+.green-par{
+	border-width:5px;
+	border-color:green;
+	border-radius: 1.5em;
+	text-align: justify;
+	font-size:1.3em;
+	
+	padding: 0.7em;
+
+}
+#image1 img{
+
+	width:10em;
+	height:8em;
+	float: left;
+	margin: 0.5em;
+	border-radius: 1.5em;
+}
+
+#image2 img{
+width:10em;
+	height:8em;
+	float: right;
+	margin: 0.5em;
+	border-width: 1.5em;
+	border-radius: 1.5em;
+}
+
+#image3 img{
+width:10em;
+	height:8em;
+	text-align: center;
+	margin: 0.5em  0.5em 0.5em 5em;
+	border-radius: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+/* desgning footer*/
+
+
+.foot{
+	background-color:#c9e3af;
+	height: 16em;
+	margin: 54em 3em 1em 3em;
+}
+
+#contact-foot{
+	width: 17em;
+	
+	font-size: 1.1em;
+	height:10em;
+	float: left;
+	color: white;
+	margin:0em 0em 0em 2em;
+}
+#contact-foot li{
+	list-style-type: none;
+
+}
+
+#foot-links{
+	width: 17em;
+	
+	color: black;
+	height: 10em;
+	float: right;
+	font-size: 1.1em;
+}
+#foot-links a{
+	text-decoration: none;
+	display: block;
+	color:black;
+
+}
+
+
+#foot-main-topics{
+margin: 0em 18em 0em 25em;
+
+color: black;
+width: 26em;
+height: 10em;
+	
+}
+#foot-main-topics a{
+	text-decoration: none;
+	display: block;
+	font-size: 1.1em;
+	color:black;
+	
+}
+#copy-right{
+	color: black;
+	text-align: center;
+	margin: 4.5em 0em 0em 0em; 
+}
+
+
+
+/*********************************************************************************
+*********************designing the contact form **********************************
+**********************************************************************************/
+
+
+#contact-body-form{
+margin: 3em;
+border-width: 1.5em;
+
+border-radius: 1.5em;
+
+
+}
+
+#contact-foot{
+	color: black;
+}
+	
+#contact-body-form form{
+margin:3em;
+border-width: 1.5em;
+background-color:#c9e3af;
+text-align: center;
+height: 40em;
+padding: 2em 0em 0em 0em;
+border-radius: 1.5em;
+color: black;
+
+
+}
+#contact-body-form form input{
+display: block;
+text-align: center;
+margin: 1em 0em 1em 8em;
+width: 30em;
+height: 3em;
+border-radius: 1.5em;
+font-size: 1em;
+
+}
+#contact-body-form form button{
+	text-align: center;
+}
+
+
+#send-contact{
+	width: 12em;
+	height: 4em;
+	display: block;
+	text-align: center;
+	font-size: 1.1em;
+	margin:2em 0em 1em 15em;
+	border-width: 0.5em;
+	border-color: green;
+	border-radius: 1em;
+
+
+}
+
+#contact-body-form form textarea{
+	border-radius:1.5em;
+	text-align: center;
+}
+/************************************************************************************
+******                      Designing News                                ***********
+*************************************************************************************/
+#main-body-news{
+
+
+margin:0em 3em 1em 0em;
+height: 60em;
+width: 57em;
+float: right;
+}
+#main-body-news h2{
+text-align: center;
+color: #05192F;
+text-decoration: underline;
+
+}
+
+
+#main-body-news div img{
+	height:9em; 
+	width:19em;
+
+}
+
+
+#main-body-news div a{
+	text-decoration: none;
+
+
+}
+
+.foot-news{
+background-color:#c9e3af;
+	height: 16em;
+	margin:74em 3em 1em 3em;
+}
+
+/*************************************************************************************
+*                       designing help                                               *
+*************************************************************************************/
+
+
+
+
+
+#help-links{
+	
+	width:18em;
+	float: left;
+	font-size: 1.5em;
+	padding:0em 2em;
+
+}
+#help-links a{
+text-decoration: none;
+display: block;
+}
+#help-main-topics{
+	
+	width: 18em;
+	float: right;
+	font-size: 1.3em;
+}
+
+#help-links a:hover{
+	color: red;
+}
+
+
+
+#help-main-topics a{
+text-decoration: none;
+display: block;
+	}
+#help-main-topics a:hover{
+color: red;
+}
+
+
+#more-hep-div{
+	background-color: yellow;
+	width: 30em;
+}
+
+
+#heading-help-more{
+
+	width: 30em;
+	height: 20em;
+	margin: 18em 14em 14em 14em;
+
+}
+
+#heading-help-more h3{
+	font-size: 2em;
+}
+#heading-help-more li a{
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 1.5em;
+	
+}
+
+#heading-help-more li a:hover{
+	color: red;
+}
+
+
+
+
+
+#heading-help-more li{
+	list-style-type: none;
+	padding: 0.5em 2em;
+}
+
+#slide-bar-help{
+background-color:#4d7d50;
+margin:0em 0em 1em 3em;
+height: 37em;
+width: 16em;
+float: left;
+
+}
+
+#slide-bar-help a{
+	background-color:#0b3b0d;
+	color: white;
+	text-decoration: none;
+	margin: 1em 0em 1em 0em;
+	display: block;
+	padding: 0em 2em 0em 2em;
+
+}
+.foot-help{
+	background-color:#c9e3af;
+	height: 16em;
+	margin: 55em 3em 1em 3em;
+
+}
+
+#main-body-help{
+margin:0em 3em 1em 0em;
+
+height: 53em;
+width: 57em;
+float: right;
+font-size: 1em;
+background-color:#c9e3af; 
+
+} 
+
+
+
+#firsth3{
+	text-align: center;
+	font-size: 2em;
+}
+
+
+
+
+/*************************************************************************************
+****     designing importance**********************************************/
+
+
+#important-par{
+
+
+	color: black;
+	border-radius: 1.5em;
+	font-size: 1.6em;
+	text-align: justify;
+	padding: 0.210em;
+}
+.foot-important{
+background-color:#c9e3af;
+	height: 16em;
+	margin:68em 3em 3em 1em;
+    
+    
+
+}
+
+
+
+
+/*********************************************************************************
+****** couse of climatic change***********************************************/
+
+
+
+#couse-climate{
+	
+
+	color: black;
+	border-radius: 1.5em;
+	font-size: 1.6em;
+	text-align: justify;
+	padding: 0.210em;
+
+}
+
+.foot-couse-climate-change{
+background-color:#c9e3af;
+	height: 16em;
+	margin:113em 3em 3em 1em;
+    
+}
+
+#slide-bar-couse{
+background-color:#c9e3af;
+margin:0em 0em 1em 3em;
+height: 35em;
+width: 16em;
+float: left;
+border-radius: 1.5em;
+
+}
+
+#slide-bar-couse a{
+	text-decoration: none;
+	color: blue;
+	font-size:1.5em;
+	display: block;
+	padding: 0.3em 0.3em;
+
+}
+#slide-bar-couse a:hover{
+	background-color: #0B173E;
+	font-size: 1.7em;
+	border-radius: 1.3em;
+}
+
+
+
+/* designing the effect of climate chage */
+
+#effect-of-climate{
+	border-radius:1.5em;
+	text-align: justify;
+	background-color:#045741;
+	font-size: 1.08em; 
+	padding: 0.4em;
+}
+
+
+
+/* cover page designing here*/
+
+
+ #coverImage img{
+	height: 51.5em;
+	margin: 0em 20em 0em 0em;
+	width: 57em;
+}
+
+#slader-cover-image img{
+	width: 16em;
+	height: 10em;
+}
+
+#airtel img{
+	width: 16em;
+	height: 20em;
+}
+
+#tecno img{
+	width: 16em;
+
+}
+#vistrwanda img{
+width: 16em;
+height: 16em;	
+}
+#radiorwanda img{
+	width: 16em;
+	height: 13.5em;
+}
+#kcb img{
+width: 16em;
+height: 10em;
+
+}
+#im-bank img{
+width: 16em;
+height: 17em;
+
+}
+
+/* design top bar for cover page */
+#cogebank img{
+	width: 37em;
+	float: left;
+}
+
+#mtn img{
+	width: 36em;
+	float: right;
+}
+
+
+
+
+
+
+/*modifying footer cover image*/
+.footer-cover{
+	background-color:#c9e3af;
+	height: 16em;
+	margin: 112.5em 3em 1em 3em;
+	border-width: 1.5em;
+}
+
+#contact-foot-cover{
+	width: 17em;
+	
+	font-size: 1.1em;
+	height:10em;
+	float: left;
+	color: black;
+	margin:0em 0em 0em 2em;
+}
+#contact-foot-cover li{
+	list-style-type: none;
+
+}
+
+#foot-links-cover{
+	width: 17em;
+	
+	color:black;
+	height: 10em;
+	float: right;
+	font-size: 1.1em;
+}
+#foot-links-cover a{
+	text-decoration: none;
+	display: block;
+	color:black;
+
+}
+
+
+#foot-main-topics-cover{
+margin: 0em 18em 0em 25em;
+color: black;
+width: 26em;
+height: 10em;
+	
+}
+#foot-main-topics-cover a{
+	text-decoration: none;
+	display: block;
+	font-size: 1.1em;
+	color:black;
+	
+}
+#copy-right-cover{
+	color: black;
+	text-align: center;
+	margin: 4.5em 0em 0em 0em;
+}
+
+
+/*designing main body for cover page*/
+#main-body-cover{
+margin:0em 3em 30em 0em;
+height: 80em;
+width: 57em;
+float: right;
+} 
+
+
+
+
+
+/*pattern*/
+
+
+#patterns img{
+	width: 20em;
+	background-color: green;
+	margin: 1em;
+	width: 15em;
+	height: 9em;
+	border-radius: 1.5em;
+
+
+}
+
+#patterns img:hover{
+	
+	width: 16em;
+	height: 10em;
+	border-width: 1.5em;
+	border-radius: 2em;
+}
+#patterns h2{
+	text-align: center;
+	font-size:3em;
+	color: #061224;
+	text-decoration: underline;
+}
+
+#patterns_div{
+	
+	border-radius: 2em;
+}
+#patterns_div_inner{
+	
+	margin: 2em;
+	border-radius: 1.5em;
+}
+
+
+/*desinging slidar bar for cover page*/
+
+#slide-bar-cover{
+background-color:#4d7d50;
+margin:0em 0em 1em 3em;
+height: 82em;
+width: 16em;
+float: left;
+
+}
+
+
+/*contact navigation bar*/
+#slide-bar-navigation-contact{
+
+	background-color:#4d7d50;
+margin:0em 0em 1em 3em;
+height: 53em;
+width: 16em;
+float: left;
+}
+.foot-contact{
+background-color:#c9e3af;
+	height: 16em;
+	margin: 55em 3em 1em 3em;
+	border-width: 1.5em;
+
+}
+
+#slide-bar-cover-news{
+background-color:#4d7d50;
+margin:0em 0em 1em 3em;
+height: 72em;
+width: 16em;
+float: left;
+
+}
